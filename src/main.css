@@ -1,0 +1,187 @@
+.container {
+  font-family: sans-serif;
+  text-align: center;
+  height: 800px;
+  width: 222px;
+  margin: auto;
+  /* background-color: green; */
+  border: 1px solid #ccc;
+}
+.top {
+  width: 188px;
+  height: 100px;
+  margin: auto;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.mid {
+  width: 188px;
+  height: 30px;
+  margin: auto;
+  padding-top: 10px;
+}
+.bottom {
+  width: 188px;
+  height: 104px;
+  margin: auto;
+  padding-top: 10px;
+}
+.priceContainer,
+.pickUpContainer,
+.zipContainer,
+.taxesContainer,
+.totalContainer,
+.addPromoContainer {
+  /* border: 1px solid red; */
+  height: 20px;
+}
+.subTotalTitle {
+  float: left;
+}
+.subTotalPrice {
+  float: right;
+}
+.pickUpTitle {
+  float: left;
+  height: 20px;
+  padding-bottom: 10px;
+}
+.pickUpPrice {
+  float: right;
+  font-weight: bold;
+  color: red;
+}
+.taxesTitle,
+.zipTitle {
+  float: left;
+}
+.taxesPrice {
+  float: right;
+}
+
+.pickUpSavingsButton {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-bottom: 1px solid black;
+  margin-left: -6px;
+}
+
+/* tooltip */
+.toolTipOverlay {
+  width: 100%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip,
+.toolTipDialog {
+  width: 65%;
+  top: 30%;
+  left: 27%;
+  margin-left: -60px;
+  background-color: #ccc;
+  color: black;
+  text-align: center;
+
+  border-radius: 6px;
+  border: black;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .toolTipDialog::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 45%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #ccc transparent;
+}
+
+.totalTitle {
+  float: left;
+  font-weight: bold;
+}
+.totalPrice {
+  float: right;
+  font-weight: bold;
+}
+
+.addPromoButton {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-bottom: 1px solid black;
+}
+.addPromoTitle {
+  float: left;
+}
+
+.plusSymbol {
+  margin-left: -15%;
+  font-size: 120%;
+}
+.minusSymbol {
+  margin-left: -5%;
+  font-size: 120%;
+}
+.addPromoInput {
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  width: 60%;
+  margin-right: 2%;
+}
+.addPromoInputButton {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 25%;
+}
+/* list */
+.itemCon {
+  height: 104px;
+  width: 188px;
+  border-bottom: 1px solid gray;
+  /* background-color: aqua; */
+}
+.itemImg {
+  height: 55px;
+  width: 55px;
+  float: left;
+}
+.itemDesc {
+  font-size: 13px;
+  height: 50px;
+  width: 132px;
+  float: right;
+}
+.priceQty {
+  height: 10px;
+  width: 132px;
+  /* border: 1px solid black; */
+  float: right;
+  /* background-color: aqua; */
+}
+.idPrice {
+  float: left;
+  font-weight: bold;
+}
+.idQty {
+  margin-left: 15px;
+}
+
+.itemDetailsButton {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-bottom: 1px solid black;
+}
